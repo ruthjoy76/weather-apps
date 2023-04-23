@@ -3,19 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Asynchronous JavaScript</title>
   </head>
-  <body>
-    <form>
-      <input
-        type="text"
-        name="search-weather-input"
-        id="search-weather-input"
-      />
-      <button id="search-weather-btn" type="submit">Search</button>
-    </form>
-    <div id="app"></div>
+  <body> 
+
+    <section class="main">
+      <form>
+        <input
+          type="text" 
+          placeholder="enter city name"
+          spellcheck="false"
+          name="search-weather-input"
+          id="search-weather-input"
+        />
+        <button id="search-weather-btn" type="submit">Search</button>
+      </form>
+
+      <div id="app"></div>
+    </section>
+    
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
