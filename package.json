@@ -2,7 +2,7 @@
   "name": "asynchronous-js",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/ruthjoy76/async-js",
+  "homepage": "https://ruthjoy76.github.io/weather-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
